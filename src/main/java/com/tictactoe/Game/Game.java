@@ -9,12 +9,13 @@ public class Game {
     private final TurnManager turnManager ;
     private final MoveValidator moveValidator;
     private final GameRules gameRules;
+    
     public Game(Board board, Player player1,Player player2){
         this.board=board;
         this.turnManager= new TrustManager(player1,player2);
          this.moveValidator= new MoveValidator();
-         this.gameRules= new GameRules()
+         this.gameRules= new GameRules();
     
     }
-    
+
 }
