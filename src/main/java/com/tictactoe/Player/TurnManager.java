@@ -1,6 +1,4 @@
-package com.tictactoe.Game;
-
-import com.tictactoe.Player.Player;
+package com.tictactoe.Player;
 
 public class TurnManager {
     private final Player player1;
