@@ -1,5 +1,7 @@
 package com.tictactoe;
 
+import com.tictactoe.Player.Player;
+
 /**
  * Hello world!
  *
