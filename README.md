@@ -1,3 +1,3 @@
-# tictactoe
-proyecto java
+# Tictactoe
+Proyecto java
 Equipo 3
