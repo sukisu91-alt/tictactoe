@@ -1,5 +1,5 @@
 package com.tictactoe;
 
-public class Player {
+public class GameController {
     
 }
