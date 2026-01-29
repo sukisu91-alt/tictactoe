@@ -11,6 +11,7 @@ public class App
 {
     public static void main( String[] args )
     {
+        //Instrucciones del juego
         instructions();
         ConsoleUI ui=new ConsoleUI(new InputReader(),new OutputWriter(),new BoardRenderer());
         Game game=ui.createGame();
