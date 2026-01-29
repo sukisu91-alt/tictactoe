@@ -1,7 +1,7 @@
 package com.tictactoe.Board;
 
 public class Board {
-    private final char[][] board;
+    private char[][] board;
 
     public Board() {
         board = new char[3][3];
