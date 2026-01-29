@@ -1,9 +1,6 @@
 package com.tictactoe.Player;
 
 public class Player {
-<<<<<<< HEAD
-    
-=======
     private String name;
     private char symbol;
 
@@ -21,5 +18,4 @@ public class Player {
     public char getSymbol(){
         return this.symbol;
     }
->>>>>>> 291b72ec643ce98b4ba95fb78e38614c0c25604a
 }
