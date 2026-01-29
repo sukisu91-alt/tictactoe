@@ -1,8 +1,8 @@
 package com.tictactoe.Player;
 
 public class TurnManager {
-    private final Player player1;
-    private final Player player2;
+    private Player player1;
+    private Player player2;
     private Player current;
     
     public TurnManager (Player player1,Player player2){
@@ -16,6 +16,15 @@ public class TurnManager {
     public void nextTurn(){
         current = (current == player1)  ? player2 : player1; 
     }
+
+    public Player getPlayer1() {
+    return player1;
+    }
+
+    public Player getPlayer2() {
+    return player2;
+    }
+
     public void reset(){
         current = player1;
     }

@@ -5,9 +5,9 @@ import com.tictactoe.Game.Game;
 import com.tictactoe.Player.Player;
 
 public class ConsoleUI {
-    private final InputReader input;
-    private final OutputWriter output;
-    private final BoardRenderer renderer;
+    private InputReader input;
+    private OutputWriter output;
+    private BoardRenderer renderer;
 
     public ConsoleUI(InputReader input, OutputWriter output, BoardRenderer renderer) {
         this.input = input;

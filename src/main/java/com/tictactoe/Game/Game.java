@@ -4,10 +4,10 @@ import com.tictactoe.Player.Player;
 import com.tictactoe.Player.TurnManager;
 
 public class Game {
-    private final Board board;
-    private final TurnManager turnManager;
-    private final MoveValidator moveValidator;
-    private final GameRules gameRules;
+    private Board board;
+    private TurnManager turnManager;
+    private MoveValidator moveValidator;
+    private GameRules gameRules;
 
     public Game(Board board, Player player1, Player player2) {
         this.board = board;
@@ -34,13 +34,14 @@ public class Game {
         turnManager.nextTurn();
     }
 
-    public boolean hasWinner() {
+  public boolean hasWinner() {
         return gameRules.isWinner(board, getActualPlayer().getSymbol());
     }
-
+    
     public boolean isDraw() {
         return gameRules.isDraw(board);
     }
+
 
     public void restart() {
         board.reset();
